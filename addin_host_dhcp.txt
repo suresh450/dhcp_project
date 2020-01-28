@@ -1,0 +1,6 @@
+input=open("out.txt",'r')
+data=input.read()
+output=open("dhcpd.conf","a")
+output.write(data)
+print("\n")
+print(output)
